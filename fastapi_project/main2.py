@@ -5,7 +5,7 @@ app=FastAPI()
 # list2=list.keys()
 @app.get("/")
 def home():
-    return {"hello world"}
+    return {"hello world"} 
 list=["cloth","food","electronics","furniture","stationary","sports","toys"]
 @app.get("/{lang}")
 def home(lang):
@@ -16,4 +16,4 @@ def home(lang):
 # from fastapi import FastAPI
 # @app.get("/seema")
 # def sujab():
-#     return {" i love seema very much"}
+#     return {" i love you seema very much"}
